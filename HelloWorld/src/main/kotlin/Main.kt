@@ -4,7 +4,8 @@ import kotlin.random.Random
 
 //main function
 fun main(args: Array<String>) {
-    //set of possible responses that the user is allowed to enter.
+    //set of possible responses that the user is allowed to enter. Contents of the following
+    //lists cannot be changed.
     val responses = setOf(
         "yes",
         "Yes",
