@@ -12,7 +12,9 @@ fun main(args: Array<String>) {
         "y",
         "Y",
         "Sure",
-        "sure"
+        "sure",
+        "yeah",
+        "yea"
     )
     //list of exit phrases
     val exits = listOf(
@@ -59,12 +61,14 @@ fun main(args: Array<String>) {
             val response: Int = Random.nextInt(responseList.size)
             println(responseList.get(response))
         }
-        if (enteredString == "-1") {
-            print("Goodbye.")
-        }
-        if (enteredString !in responses) {
-            val exit: Int = Random.nextInt(exits.size)
-            println(exits.get(exit))
-        }
+    }
+    if (enteredString == "-1") {
+        print("Goodbye.")
+    }
+    if (enteredString !in responses) {
+        val exit: Int = Random.nextInt(exits.size)
+        println(exits.get(exit))
     }
 }
+
+
