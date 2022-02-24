@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
     val exits = listOf(
         "You had your chance!",
         "Have it your way! - Burger King",
-        "You miss 100% of the shots you don't take..."
+        "You miss 100% of the shots you don't take...",
     )
     //list of random facts
     val factList = listOf(
@@ -68,11 +68,3 @@ fun main(args: Array<String>) {
         }
     }
 }
-
-
-
-
-
-
-
-
