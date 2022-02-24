@@ -1,3 +1,8 @@
+//Kotlin Console Program:
+//This program is simple and sort but demonstrates how a Kotlin console-based program operates.
+//I used the "Random" import in various parts of my code.
+//The bot will choose phrases and facts randomly each time the code is executed.
+
 //Imports for Kotlin
 import kotlin.random.Random
 
@@ -71,5 +76,4 @@ fun main(args: Array<String>) {
         println(exits.get(exit))
     }
 }
-
 
