@@ -8,7 +8,7 @@ import kotlin.random.Random
 
 
 //main function
-fun main(args: Array<String>) {
+fun main() {
     //set of possible responses that the user is allowed to enter. Contents of the following
     //lists cannot be changed.
     val responses = setOf(
@@ -66,6 +66,10 @@ fun main(args: Array<String>) {
             println(factList.get(index))
             val response: Int = Random.nextInt(responseList.size)
             println(responseList.get(response))
+        }
+        if (another !in responses) {
+            val exit: Int = Random.nextInt(exits.size)
+            println(exits.get(exit))
         }
     }
     if (enteredString == "-1") {
